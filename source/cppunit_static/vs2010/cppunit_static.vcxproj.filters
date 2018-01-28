@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\AdditionalMessage.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\Asserter.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\BeOsDynamicLibraryManager.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\BriefTestProgressListener.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\CompilerOutputter.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\DefaultProtector.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\DynamicLibraryManager.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\DynamicLibraryManagerException.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\Exception.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\Message.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\PlugInManager.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\PlugInParameters.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\Protector.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\ProtectorChain.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\RepeatedTest.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\ShlDynamicLibraryManager.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\SourceLine.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\StringTools.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\SynchronizedObject.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\Test.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestAssert.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestCase.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestCaseDecorator.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestComposite.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestDecorator.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestFactoryRegistry.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestFailure.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestLeaf.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestNamer.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestPath.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestPlugInDefaultImpl.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestResult.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestResultCollector.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestRunner.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestSetUp.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestSuccessListener.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestSuite.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestSuiteBuilderContext.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TextOutputter.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TextTestProgressListener.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TextTestResult.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TextTestRunner.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TypeInfoHelper.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\UnixDynamicLibraryManager.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\Win32DynamicLibraryManager.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\XmlDocument.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\XmlElement.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\XmlOutputter.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\XmlOutputterHook.cpp">
+      <Filter>Static library</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\XmlOutputterHook.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\AdditionalMessage.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\tools\Algorithm.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\Asserter.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\AutoRegisterSuite.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\BriefTestProgressListener.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\CompilerOutputter.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\config\config-bcb5.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\config\config-evc4.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\config\config-mac.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\config\config-msvc6.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\config\CppUnitApi.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\portability\CppUnitDeque.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\portability\CppUnitMap.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\portability\CppUnitSet.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\portability\CppUnitStack.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\portability\CppUnitVector.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\src\cppunit\DefaultProtector.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\plugin\DynamicLibraryManager.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\plugin\DynamicLibraryManagerException.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\Exception.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\ExceptionTestCaseDecorator.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\portability\FloatingPoint.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\HelperMacros.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\Message.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\Orthodox.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\Outputter.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\plugin\PlugInManager.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\plugin\PlugInParameters.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\Portability.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\Protector.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\src\cppunit\ProtectorChain.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\src\cppunit\ProtectorContext.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\RepeatedTest.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\config\SelectDllLoader.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\SourceLine.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\config\SourcePrefix.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\portability\Stream.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\tools\StringTools.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\SynchronizedObject.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\Test.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestAssert.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestCaller.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestCase.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestCaseDecorator.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestComposite.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestDecorator.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestFactory.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestFactoryRegistry.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestFailure.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestFixture.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestFixtureFactory.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestLeaf.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestListener.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestNamer.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestPath.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\plugin\TestPlugIn.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\plugin\TestPlugInDefaultImpl.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestResult.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestResultCollector.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestRunner.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\ui\text\TestRunner.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestSetUp.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestSuite.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestSuiteBuilder.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestSuiteBuilderContext.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestSuiteFactory.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TextOutputter.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TextTestProgressListener.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TextTestResult.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\ui\text\TextTestRunner.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TextTestRunner.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TypeInfoHelper.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\tools\XmlDocument.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\tools\XmlElement.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\XmlOutputter.h">
+      <Filter>Static library</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\third_party\cppunit\ChangeLog">
+      <Filter>Static library</Filter>
+    </None>
+    <None Include="..\..\third_party\cppunit\CodingGuideLines.txt">
+      <Filter>Static library</Filter>
+    </None>
+    <None Include="..\..\third_party\cppunit\configure.in">
+      <Filter>Static library</Filter>
+    </None>
+    <None Include="..\..\third_party\cppunit\doc\cookbook.dox">
+      <Filter>Static library</Filter>
+    </None>
+    <None Include="..\..\third_party\cppunit\doc\FAQ">
+      <Filter>Static library</Filter>
+    </None>
+    <None Include="..\..\third_party\cppunit\INSTALL-unix">
+      <Filter>Static library</Filter>
+    </None>
+    <None Include="..\..\third_party\cppunit\INSTALL-WIN32.txt">
+      <Filter>Static library</Filter>
+    </None>
+    <None Include="..\..\third_party\cppunit\src\cppunit\Makefile.am">
+      <Filter>Static library</Filter>
+    </None>
+    <None Include="..\..\third_party\cppunit\include\cppunit\Makefile.am">
+      <Filter>Static library</Filter>
+    </None>
+    <None Include="..\..\third_party\cppunit\doc\Money.dox">
+      <Filter>Static library</Filter>
+    </None>
+    <None Include="..\..\third_party\cppunit\NEWS">
+      <Filter>Static library</Filter>
+    </None>
+    <None Include="..\..\third_party\cppunit\doc\other_documentation.dox">
+      <Filter>Static library</Filter>
+    </None>
+    <None Include="..\..\third_party\cppunit\THANKS">
+      <Filter>Static library</Filter>
+    </None>
+    <None Include="..\..\third_party\cppunit\TODO">
+      <Filter>Static library</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Static library">
+      <UniqueIdentifier>{ede97271-9eae-47d0-8265-7bb60131cc47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{41447B03-C7C6-437D-8872-E1DE209EB898}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>cppunit_static</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../third_party/cppunit/include;../../third_party/cppunit/src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../third_party/cppunit/include;../../third_party/cppunit/src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\third_party\cppunit\ChangeLog">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\..\third_party\cppunit\CodingGuideLines.txt" />
+    <None Include="..\..\third_party\cppunit\configure.in">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\..\third_party\cppunit\doc\cookbook.dox">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\..\third_party\cppunit\doc\FAQ">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\..\third_party\cppunit\doc\Money.dox">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\..\third_party\cppunit\doc\other_documentation.dox">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\..\third_party\cppunit\include\cppunit\Makefile.am">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\..\third_party\cppunit\INSTALL-unix">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\..\third_party\cppunit\INSTALL-WIN32.txt" />
+    <None Include="..\..\third_party\cppunit\NEWS">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\..\third_party\cppunit\src\cppunit\Makefile.am">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\..\third_party\cppunit\THANKS">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\..\third_party\cppunit\TODO">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\AdditionalMessage.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\Asserter.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\BeOsDynamicLibraryManager.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\BriefTestProgressListener.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\CompilerOutputter.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\DefaultProtector.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\DynamicLibraryManager.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\DynamicLibraryManagerException.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\Exception.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\Message.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\PlugInManager.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\PlugInParameters.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\Protector.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\ProtectorChain.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\RepeatedTest.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\ShlDynamicLibraryManager.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\SourceLine.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\StringTools.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\SynchronizedObject.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\Test.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestAssert.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestCase.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestCaseDecorator.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestComposite.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestDecorator.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestFactoryRegistry.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestFailure.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestLeaf.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestNamer.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestPath.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestPlugInDefaultImpl.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestResult.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestResultCollector.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestRunner.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestSetUp.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestSuccessListener.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestSuite.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TestSuiteBuilderContext.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TextOutputter.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TextTestProgressListener.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TextTestResult.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TextTestRunner.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\TypeInfoHelper.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\UnixDynamicLibraryManager.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\Win32DynamicLibraryManager.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\XmlDocument.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\XmlElement.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\XmlOutputter.cpp" />
+    <ClCompile Include="..\..\third_party\cppunit\src\cppunit\XmlOutputterHook.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\AdditionalMessage.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\Asserter.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\BriefTestProgressListener.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\CompilerOutputter.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\config\config-bcb5.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\config\config-evc4.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\config\config-mac.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\config\config-msvc6.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\config\CppUnitApi.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\config\SelectDllLoader.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\config\SourcePrefix.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\Exception.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\AutoRegisterSuite.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\ExceptionTestCaseDecorator.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\HelperMacros.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\Orthodox.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\RepeatedTest.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestCaseDecorator.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestDecorator.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestFactory.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestFactoryRegistry.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestFixtureFactory.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestNamer.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestSetUp.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestSuiteBuilder.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestSuiteBuilderContext.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TestSuiteFactory.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\extensions\TypeInfoHelper.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\Message.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\Outputter.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\plugin\DynamicLibraryManager.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\plugin\DynamicLibraryManagerException.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\plugin\PlugInManager.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\plugin\PlugInParameters.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\plugin\TestPlugIn.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\plugin\TestPlugInDefaultImpl.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\Portability.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\portability\CppUnitDeque.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\portability\CppUnitMap.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\portability\CppUnitSet.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\portability\CppUnitStack.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\portability\CppUnitVector.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\portability\FloatingPoint.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\portability\Stream.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\Protector.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\SourceLine.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\SynchronizedObject.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\Test.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestAssert.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestCaller.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestCase.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestComposite.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestFailure.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestFixture.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestLeaf.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestListener.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestPath.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestResult.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestResultCollector.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestRunner.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TestSuite.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TextOutputter.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TextTestProgressListener.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TextTestResult.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\TextTestRunner.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\tools\Algorithm.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\tools\StringTools.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\tools\XmlDocument.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\tools\XmlElement.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\ui\text\TestRunner.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\ui\text\TextTestRunner.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\XmlOutputter.h" />
+    <ClInclude Include="..\..\third_party\cppunit\include\cppunit\XmlOutputterHook.h" />
+    <ClInclude Include="..\..\third_party\cppunit\src\cppunit\DefaultProtector.h" />
+    <ClInclude Include="..\..\third_party\cppunit\src\cppunit\ProtectorChain.h" />
+    <ClInclude Include="..\..\third_party\cppunit\src\cppunit\ProtectorContext.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
