@@ -1,6 +1,9 @@
-Debug
-Release
+/Debug/*
+/Release/*
+
+*.ipch
 *.opensdf
+*.pch
 *.sdf
 *.suo
 *.vcxproj.user
