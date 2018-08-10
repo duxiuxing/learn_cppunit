@@ -1,9 +1,21 @@
+*_manifest.rc
+*.embed.manifest
+*.idb
+*.intermediate.manifest
+*.ipch
+*.lastbuildstate
+*.log
+*.ncb
+*.obj
+*.opensdf
+*.pch
+*.res
+*.sdf
+*.suo
+*.tlog
+*.vcxproj.user
+
 /Debug/*
 /Release/*
 
-*.ipch
-*.opensdf
-*.pch
-*.sdf
-*.suo
-*.vcxproj.user
+source/third_party/cppunit/doc/html/*
